@@ -2,22 +2,24 @@
 
 This repository contains four practical problems based on Prompt Engineering. Each problem focuses on designing effective prompts to instruct an AI model to perform a specific text classification task.
 
-Problem 1: Customer Query Classification Using Prompt Engineering
-Problem Statement
+---
+
+#Problem 1: Customer Query Classification Using Prompt Engineering
+##Problem Statement
 
 An e-commerce company receives numerous customer queries related to orders, deliveries, payments, refunds, cancellations, and product defects.
 
 Your task is to design an effective prompt that classifies each customer query into the appropriate predefined category.
 
-Input
+## Input
 
 A customer query in natural language.
 
-Output
+## Output
 
 A single word representing the category of the query.
 
-Allowed Categories
+## Allowed Categories
 Delivery
 Shipping
 Refund
@@ -27,7 +29,8 @@ Defect
 Return
 Account
 Unknown
-Examples
+
+## Examples
 Input Query	Expected Output
 My order has not arrived yet.	Delivery
 My package is stuck in transit.	Shipping
@@ -38,7 +41,7 @@ The product I received is broken.	Defect
 I want to send this product back.	Return
 I cannot log in to my account.	Account
 What is the capital of India?	Unknown
-Constraint
+## Constraint
 
 The output must contain exactly one category word, without explanations, punctuation, or additional text.
 
