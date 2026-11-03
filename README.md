@@ -1,4 +1,4 @@
-Prompt Engineering Problems
+# Prompt Engineering Problems
 
 This repository contains four practical problems based on Prompt Engineering. Each problem focuses on designing effective prompts to instruct an AI model to perform a specific text classification task.
 
